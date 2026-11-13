@@ -21,5 +21,12 @@ export const projects = [
     description: "A personal developer portfolio with a blogging system built using React.",
     technologies: ["React", "JavaScript", "Vite"],
     github: null
+  },
+  {
+    id: 4,
+    title: "Little dude platformer",
+    description: "Little platformer writen in C++ with SFML lib",
+    technologies: ["C++", "SFML", "Makefile"],
+    github: "https://github.com/DizzyWaters/2d_Platformer_Little_Dude"
   }
 ];
