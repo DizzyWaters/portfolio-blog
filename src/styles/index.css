@@ -1,23 +1,102 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #121212;
   color: #ffffff;
+  line-height: 1.6;
 }
+
+/* Header */
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 20px 40px;
   background-color: #1e1e1e;
 }
 
-header a {
+header h2 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+nav a {
   color: #ffffff;
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #64ffda;
+}
+
+/* Main */
+
 main {
-  padding: 60px 40px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Sections */
+
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid #333333;
+}
+
+section h2 {
+  color: #64ffda;
+}
+
+/* Links */
+
+a {
+  color: #64ffda;
+}
+
+/* Project and Blog containers */
+
+.projects-container,
+.blog-container {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    gap: 12px;
+  }
 }
