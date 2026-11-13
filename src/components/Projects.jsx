@@ -1,3 +1,6 @@
+import { projects } from '../data/projects.js';
+import ProjectCard from './ProjectCard.jsx';
+
 function Projects() {
   return (
     <section id="projects">
@@ -8,10 +11,16 @@ function Projects() {
       </p>
 
       <div className="projects-container">
-        <p>Projects will be added soon.</p>
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            project={project}
+          />
+        ))}
       </div>
+
     </section>
   );
 }
 
-export default Projects;
+export default Projects;;
