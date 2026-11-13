@@ -2,14 +2,17 @@ function BlogPost({ post, isOpen, onToggle }) {
   return (
     <article className={`blog-card ${isOpen ? "expanded" : ""}`}>
 
-      <p className="blog-meta">
-        {post.date} | {post.category}
-      </p>
-
-      <h3>{post.title}</h3>
-
-      <p>{post.excerpt}</p>
-
+    <p className="blog-meta">
+      {post.category}
+      {post.date && (
+      <>
+        {' · '}
+       <time dateTime={post.date}>
+         {post.date}
+       </time>
+     </>
+      )}
+    </p>
       <button
         type="button"
         onClick={onToggle}
