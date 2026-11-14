@@ -2,7 +2,6 @@ export const posts = [
   {
     id: 1,
     title: "Learning React Components",
-    date: "2026-11-13",
     category: "React",
     excerpt: "My first experience with React and reusable components.",
     content: `
@@ -21,7 +20,6 @@ export const posts = [
   {
     id: 2,
     title: "Understanding Git Branches",
-    date: "2026-11-10",
     category: "Git",
     excerpt: "Why Git branches are useful in software development.",
     content: `
@@ -39,7 +37,6 @@ export const posts = [
   {
     id: 3,
     title: "My Experience with Haskell",
-    date: "2026-11-08",
     category: "Haskell",
     excerpt: "Learning recursion and functional programming.",
     content: `
