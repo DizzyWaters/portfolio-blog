@@ -20,7 +20,7 @@ export const projects = [
     title: "React Portfolio Blog",
     description: "A personal developer portfolio with a blogging system built using React.",
     technologies: ["React", "JavaScript", "Vite"],
-    github: null
+    github: "https://github.com/DizzyWaters/portfolio-blog"
   },
   {
     id: 4,
