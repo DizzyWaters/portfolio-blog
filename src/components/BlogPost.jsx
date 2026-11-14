@@ -13,6 +13,9 @@ function BlogPost({ post, isOpen, onToggle }) {
      </>
       )}
     </p>
+      <h3>{post.title}</h3>
+      <p>{post.excerpt}</p>
+
       <button
         type="button"
         onClick={onToggle}
