@@ -31,8 +31,7 @@ function App() {
         <section id="home" className="hero">
 
           <p className="eyebrow">
-            Computer Science Student
-          </p>
+            Dizzy's Portfolio-blog          </p>
 
           <h1>
             Welcome to my Developer Portfolio

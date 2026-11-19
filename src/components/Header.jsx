@@ -4,7 +4,7 @@ function Header({ theme, onToggleTheme }) {
       <div className="header-inner">
 
         <a className="site-title" href="#home">
-          Developer's Journal
+         Dizzy's Corner 
         </a>
 
         <nav aria-label="Main navigation">

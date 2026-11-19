@@ -183,18 +183,17 @@ main .hero {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
 
-  min-height: 350px;
-  padding: 70px 0;
+  min-height: auto;
+  padding: 10px 0;
 }
 
 .eyebrow {
   color: var(--accent);
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 23px;
 }
 
 .hero h1 {
